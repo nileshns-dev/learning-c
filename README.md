@@ -1,2 +1,3 @@
 # learning-c
-This is where I record the programs I learn in C that I find really useful
+This is where I record the programs I learn in C that I find really useful.
+(And an excuse to learn Git and GitHub at the same time!)
