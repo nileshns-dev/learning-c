@@ -15,6 +15,6 @@ int main(){
 int swapDigits(int n){
     int t, o;
     o=n%10;
-    t=(n-o)/10;
+    t=n/10;
     return 10*o+t;
 }
