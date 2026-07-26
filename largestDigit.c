@@ -13,7 +13,7 @@ int main(){
 }
 
 int largestDigit(int n){
-    int z;
+    int z=0;
     for (int i=1; n>0; i++){
         int a=n%10;
         n/=10;
