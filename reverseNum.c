@@ -14,21 +14,10 @@ int main(){
 
 int reverseNumber(int n){
     int reversedNum=0;
-    for (int i=1; n>0; i++){
-        int a = n%10;
-        reversedNum+=a;
-        reversedNum*=10;
+    while (n>0){
+        int digit=n%10;
+        reversedNum = reversedNum*10+digit;
         n/=10;
-        
     }
-    return reversedNum/10;
+    return reversedNum;
 }
-
-// 123
-// 3*10+2
-//3
-//32
-//321
-//
-//
-//
