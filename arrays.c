@@ -17,9 +17,6 @@ int countOdd(int arr[], int n){
         if (arr[i]%2==1){
             count+=1;
         }
-        else{
-            count=count;
-        }
     }
     return count;
 }
